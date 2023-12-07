@@ -12,7 +12,7 @@ import SwiftData
 struct ColorThreeRandomApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Data.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,8 +25,7 @@ struct ColorThreeRandomApp: App {
 
     var body: some Scene {
         WindowGroup {
-            EditColorView()
-                .modelContainer(for: Item.self)
+            DataView()
         }
         .modelContainer(sharedModelContainer)
     }
