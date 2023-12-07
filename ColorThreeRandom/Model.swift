@@ -1,8 +1,13 @@
-//
-//  Model.swift
-//  ColorThreeRandom
-//
-//  Created by 平山奈々海 on 2023/12/05.
-//
-
 import Foundation
+import SwiftData
+
+@Model
+final class TodoItem {
+    var id: UUID = UUID()
+    var title: String
+    var isCompleted: Bool = false
+
+    init(title: String) {
+        self.title = title
+    }
+}
