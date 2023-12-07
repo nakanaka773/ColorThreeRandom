@@ -14,11 +14,9 @@
 		5BE005182B1D144300C3F74F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE005172B1D144300C3F74F /* HomeView.swift */; };
 		5BE0051A2B1D145800C3F74F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE005192B1D145800C3F74F /* SliderView.swift */; };
 		5BE0051C2B1D146E00C3F74F /* StockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0051B2B1D146E00C3F74F /* StockView.swift */; };
-		5BE0051E2B1D164A00C3F74F /* ExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0051D2B1D164A00C3F74F /* ExampleView.swift */; };
 		5BE005242B1D250000C3F74F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE005232B1D250000C3F74F /* ContentView.swift */; };
-		5BE005262B1E772F00C3F74F /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE005252B1E772F00C3F74F /* SampleView.swift */; };
-		5BE005282B1E8A8400C3F74F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE005272B1E8A8400C3F74F /* Model.swift */; };
-		5BE0052A2B1E8A9A00C3F74F /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE005292B1E8A9A00C3F74F /* TodoView.swift */; };
+		5BE0052C2B22343300C3F74F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0052B2B22343300C3F74F /* Data.swift */; };
+		5BE0052E2B2234B900C3F74F /* DataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE0052D2B2234B900C3F74F /* DataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,11 +28,9 @@
 		5BE005172B1D144300C3F74F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5BE005192B1D145800C3F74F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		5BE0051B2B1D146E00C3F74F /* StockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockView.swift; sourceTree = "<group>"; };
-		5BE0051D2B1D164A00C3F74F /* ExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleView.swift; sourceTree = "<group>"; };
 		5BE005232B1D250000C3F74F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		5BE005252B1E772F00C3F74F /* SampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleView.swift; sourceTree = "<group>"; };
-		5BE005272B1E8A8400C3F74F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		5BE005292B1E8A9A00C3F74F /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		5BE0052B2B22343300C3F74F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5BE0052D2B2234B900C3F74F /* DataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,11 +68,9 @@
 				5BE005172B1D144300C3F74F /* HomeView.swift */,
 				5BE005192B1D145800C3F74F /* SliderView.swift */,
 				5BE0051B2B1D146E00C3F74F /* StockView.swift */,
-				5BE0051D2B1D164A00C3F74F /* ExampleView.swift */,
-				5BE005252B1E772F00C3F74F /* SampleView.swift */,
+				5BE0052D2B2234B900C3F74F /* DataView.swift */,
+				5BE0052B2B22343300C3F74F /* Data.swift */,
 				5BE0050B2B1D13CA00C3F74F /* Item.swift */,
-				5BE005272B1E8A8400C3F74F /* Model.swift */,
-				5BE005292B1E8A9A00C3F74F /* TodoView.swift */,
 				5BE0050D2B1D13CC00C3F74F /* Assets.xcassets */,
 				5BE0050F2B1D13CC00C3F74F /* Preview Content */,
 			);
@@ -161,15 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE005282B1E8A8400C3F74F /* Model.swift in Sources */,
-				5BE005262B1E772F00C3F74F /* SampleView.swift in Sources */,
-				5BE0052A2B1E8A9A00C3F74F /* TodoView.swift in Sources */,
+				5BE0052C2B22343300C3F74F /* Data.swift in Sources */,
 				5BE005182B1D144300C3F74F /* HomeView.swift in Sources */,
 				5BE0050C2B1D13CA00C3F74F /* Item.swift in Sources */,
 				5BE005242B1D250000C3F74F /* ContentView.swift in Sources */,
 				5BE0051C2B1D146E00C3F74F /* StockView.swift in Sources */,
 				5BE005082B1D13CA00C3F74F /* ColorThreeRandomApp.swift in Sources */,
-				5BE0051E2B1D164A00C3F74F /* ExampleView.swift in Sources */,
+				5BE0052E2B2234B900C3F74F /* DataView.swift in Sources */,
 				5BE0051A2B1D145800C3F74F /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,9 +311,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanami.ColorThreeRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,9 +343,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanami.ColorThreeRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

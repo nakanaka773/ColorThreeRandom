@@ -26,6 +26,7 @@ struct ColorThreeRandomApp: App {
     var body: some Scene {
         WindowGroup {
             EditColorView()
+                .modelContainer(for: Item.self)
         }
         .modelContainer(sharedModelContainer)
     }
